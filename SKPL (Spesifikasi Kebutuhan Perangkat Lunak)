@@ -104,3 +104,55 @@ dalam dokumen ini agar pengembang perangkat lunak lebih mudah dalam melakukan pe
 digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship 
 Diagram.
  
+
+                                                                     BAB 2
+                                                         Deskripsi Umum Perangkat Lunak
+
+2.1	Deskripsi Umum Sistem
+Aplikasi berbasis website panti asuhan dan panti jompo malang adalah salah satu aplikasi yang dapat digunakan untuk mengetahui daftar panti asuhan dan panti jompo di Malang, berita-berita mengenai kegiatan panti,  galeri-galeri kegiatan panti, dan pendaftaran adopsi anak pada panti asuhan. Pada daftar panti asuhan dan panti jompo terdapat informasi berupa gambar dan nama panti asuhan dan panti jompo, saat salah satu gambar panti dipilih akan menampilkan gambar panti beserta data mengenai panti seperti nama panti, alamat, no rekening, kepala panti, no telp, data warga panti dan laporan donasi (yang hanya dapat dilihat oleh pihak dari panti terkait dan dinas sosial). Data warga panti yaitu berupa data pengurus panti yang ditampilkan dengan gambar beserta nama dan jabatan dan data penghuni panti seperti anak asuh pada panti asuhan dan lansia untuk panti jompo. Laporan donasi berupa data tanggal pembelian barang, nama barang, jumlah barang, harga, total pengeluaran, dan jumlah donasi yang dapat diprint out oleh pihak terkait. Kegiatan panti meliputi gambar dan berita yang berupa artikel. Galeri panti berupa foto-foto yang diunggah oleh pihak panti asuhan dan panti jompo. Pendaftaran adopsi anak dilakukan dengan mengisi form pendaftaran dan menyediakan berkas fotokopi KTP, fotocopi KK, dan persyaratan lain yang dibutuhkan oleh panti asuhan. Pada form pendaftaran yang perlu dimasukkan yaitu data nama calon orang tua asuh, jenis kelamin, tempat/TTL, alamat, motivasi adopsi.
+Pengguna sistem yaitu user dan dinas sosial terkait yang memiliki kewenangan mengawasi aliran dana untuk panti asuhan dan panti jompo. Sistem dikelola oleh admin dari pihak panti asuhan dan panti jompo yang bertugas untuk memperbarui data, dan mengelola website. 
+
+2.2	Karakteristik Pengguna
+a. User dapat melihat tampilan website dengan hak akses melakukan pendaftaran calon pengasuh anak pada panti asuhan
+b. Dinas sosial dapat melihat tampilan website dengan hak akses melakukan download laporan keuangan
+c. Admin dapat memperbarui tampilan website dan memperbarui data-data panti asuhan dan panti jompo dengan hak akses melakukan sign in sebagai admin, control panel server, dan basis data panti asuhan dan panti jompo.
+2.3	Batasan
+Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasanbatasan tersebut antara lain :
+1.	Pengambilan data laporan keuangan hanya dapat didownload oleh pihat terkait yaitu dinas sosial yang memiliki kewenangan mengawasi aliran dana dan admin dari panti asuhan dan panti jompo.
+2.	Calon orang tua asuh dari panti asuhan mengisi form pendaftaran terlebih dahulu sebelum mendatangi panti asuhan terkait.
+3.	Aplikasi berbasis website yang hanya dapat diakses saat terkoneksi internet (online).
+2.4	Lingkungan Operasi
+Aplikasi Client server ini akan berfungsi dengan spesifikasi :
+Server :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+• Processor Intel Pentium 4 3 Ghz
+• Motherboard support internet connection
+• 2 GB RAM
+• 500 GB Hard Disk Drive utama
+• 500 GB Hard Disk Drive backup
+• VGA Card 256 MB
+• NIC FastEthernet atau Gigabit Ethernet
+• Mouse
+• Keyboard
+• Monitor
+• Power Supply
+Komputer yang minimal telah terinstall software sebagai berikut :
+• Browser Google Chrome/Mozilla Firefox
+• PDF reader
+• Word Processor
+• Apache HTTP Server
+• Mail Server DBMS (Database Management System) minimal MySQL 5.0.20 ke atas Koneksi internet dengan bandwidth minimal 1 Mbps
+OS minimal Windows 7
+Client : Komputer dengan spesifikasi hardware minimal sebagai berikut :
+• Processor Intel Pentium 4 2 Ghz
+• Motherboard support internet connection
+• 1 GB RAM
+• 80 GB Hard Disk Drive
+• VGA Card 64 MB
+• Mouse
+• Keyboard
+• Monitor
+• Power Supply
+Komputer yang minimal telah terinstall software sebagai berikut :
+• Browser Google Chrome/Mozilla Firefox
+Koneksi internet dengan bandwidth minimal 128 Kbps
