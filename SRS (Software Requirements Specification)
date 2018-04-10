@@ -118,8 +118,7 @@ Dalam sistem informasi ini, users yang terlibat adalah sebagai berikut
    - Bersifat netral, sebelumnya tidak ada kerjasama admin dengan Dinas Sosial maupun Panti Asuhan dan Panti Jompo
 
 3.3 Kebutuhan Antar Muka
-Kebutuhan antarmuka dalam sistem ini antara lain adalah kebutuhan perangkat keras berupa Personal Computer (PC) berupa 
-Central  processing Unit (CPU), mouse, keyboard, monitor , dimana perangkat PC harus terhubung dengan jaringan intranet dan internet,
+Kebutuhan antarmuka dalam sistem ini adalah kebutuhan perangkat keras berupa Personal Computer (PC), mouse, keyboard, monitor , dimana perangkat PC harus terhubung dengan jaringan intranet dan internet,
 sehingga membutuhkan Local Area Network (LAN) Card . Sedangkan untuk kebutuhan perangkat lunak y ang harus disediakan adalah berupa 
 sebuah web browser seperti Internet Explorer,  Mozilla firefox,  dan sebagainya untuk menjalankan aplikasi berbasis web.
 
