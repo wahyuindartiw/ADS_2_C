@@ -1,0 +1,22 @@
+SYSTEM REQUEST
+Sistem Informasi Panti Asuhan dan Panti Jompo
+1)	Project Sponsor 
+-Dinas Sosial Pemerintah Kota Malang
+2)	Business Needs 
+-	Memantau semua kegiatan di Panti Asuhan dan Panti Jompo di Kota Malang
+-	Memudahkan pencarian informasi
+-	Mengetahui prosedur adopsi anak secara resmi
+-	Pengawasan kegiatan di Panti Asuhan dan Panti Jompo
+-	Pengawasan bantuan Dinas Sosial (Dalam bentuk Laporan Keuangan) 
+-	Memudahkan penyaluran bantuan
+3)	Business Requirement
+-	Informasi identitas diri
+-	Informasi kegiatan di Panti Asuhan dan Panti Jompo
+-	Informasi kebutuhan (SPP) di Panti Asuhan dan Panti Jompo
+-	Informasi adopsi anak
+4)	Business Value
+-	Keakuratan informasi
+-	Ketepatan prosedur adopsi anak di Panti Asuhan
+-	Efektivitas penyaluran bantuan 
+5)	Special Issue
+-	Sistem dibangun berbasis website responsive
