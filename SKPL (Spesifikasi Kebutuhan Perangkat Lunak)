@@ -1,0 +1,106 @@
+                                                     SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK 
+                                                                   
+                                                                   
+                                                                   BAB 1 
+                                                                PENDAHULUAN
+1.1 Tujuan
+Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan pada Sistem Informasi Panti Asuhan 
+dan Panti Jompo. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum Perangkat Lunak dan deskripsi kebutuhan Perngkat lunak 
+dalam pembangunan Sistem Informasi secara detail dan menyeluruh. Dalam rangka membangun Sistem Informasi tersebut, tentunya spesifikasi 
+kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersebut. 
+Tujuan pembuatan Sistem Informasi Panti Asuhan dan Panti Jompo di Kota Malang, untuk memudahkan semua Panti Asuhan dan Panti Jompo yang ada
+di Kota Malang untuk berbagi dan memantau aktivitas panti, memudahkan masyarakat umum untuk memberikan bantuan sosial, memudahkan calon 
+orang tua untuk mengadopsi anak secara resmi, dan pengawasan Dinas Sosial Kota Malang terhadap bantuan yang diberikan di Panti Asuhan dan 
+Panti Jompo. Dengan adanya sistem informasi ini, semua aktivitas sampai bantuan di semua Panti Asuhan dan Panti Jompo di Kota Malang akan 
+dipantau secara online.
+
+1.2 Ruang Lingkup 
+Panti Asuhan dan Panti Jompo yang ada di Kota Malang tidak semua mempunyai website sendiri untuk membagikan aktivitas dan kebutuhan akan 
+Panti. Sehingga masyarakat umum yang ingin membantu Panti berupa dana harus datang ke panti tersebut, begitupun dengan orang tua yang 
+ingin mengadopsi anak harus datang ke Panti Asuhan untuk melihat berkas yang harus disiapkan, hal ini tentu akan tidak efektif, 
+Dinas sosial yang memberikan dana bantuan terhadap Panti harus mendatangi Panti untuk mengecek kebenaran penggunaan dana tersebut. 
+Tentu hal ini sangat membutuhkan banyak waktu, apalagi Panti Asuhan dan Panti Jompo di Kota Malang cukup banyak. 
+Dengan pengembangan Sistem Informasi ini diharapkan  akan membantu kerja dari Dinas Sosial Kota Malang  dalam memantu Panti Asuhan dan 
+Panti Jompo dalam hal sosial sampai keuangan, begitupun dengan masyarakat umum.
+
+1.3 Definisi, Istilah dan Singkatan
+Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini
+  1) Sistem Informasi merupakan Kesatuan elemen-elemen yang saling berinteraksi secara sistematis dan teratur untuk menciptakan dan 
+     membentuk aliran informasi yang akan mendukung permbuatan keputusan dan melakukan kendali terhadap jalannya organisasi.
+  2) Panti Asuhan
+     Panti asuhan adalah suatu Lembaga usaha kesejahteraan sosial yang mempunyai tanggung jawab untuk memberikan pelayanan kesejahteraan 
+     sosial kepada anak telantar dengan melaksanakan penyantunan dan pengentasan anak telantar, memberikan pelayanan pengganti fisik, 
+     mental, dan sosial pada anak asuh, sehingga memperoleh kesempatan yang luas, tepat dan memadai bagi perkembangan kepribadiannya 
+     sesuai dengan yang diharapkan sebagai bagian dari generasi penerus cita-cita bangsa dan sebagai insan yang akan turut serta aktif di dalam 
+     bidang pembangunan nasional (Kepmensos No. 50/huk/2004).
+  3) Panti Jompo
+     Panti jompo adalah sebuah rumah atau tempat penampungan untuk manusia lanjut usia. Sebuah sarana dimana manula diberikan fasilitas, 
+     layanan 24 jam, jadwal aktifitas, dan hiburan yang dibutuhkan sesuai kebutuhan manula.
+  4) Database
+     kumpulan data-data yang tersimpan, tersusun, dan saling terhubung satu sama lain pada suatu komputer serta digunakan perangkat lunak 
+     untuk mengakses maupun mengelolanya sehingga dapat dihasilkan informasi.
+  5) Interface
+     Interface merupakan tampilan antarmuka perangkat lunak dan pengguna
+  6) Data Flow Diagram (DFD) Leveled
+     Data Flow Diagram (DFD) Leveled adalah DFD yang digambarkan bertingkat dari level global ke level detail (terperinci) sehingga 
+     sistem 
+     lebih tergambar jelas.
+  7) Entity Relationship Diagram (ERD) 
+     Entity Relationship Diagram (ERD) adalah model yang mendeskripsikan hubungan antar entity atau penyimpanan data yang ada pada DFD.
+     Penggambaran Entity Relationship Diagram ini didasarkan pada kenyataan yang terjadi pada dunia nyata.
+     
+1.4 Aturan Penomoran
+Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan dibawah ini :
+Nama-ID         : Kebutuhan Fungsional  
+Aturan penamaan : SRS-F-OI/OP/OUT-XXX
+Keterangan      :
+- SRS adalah System Requirement Summary
+- F adalah Fungsional
+- OI menunjukkan operasi Input
+- OP menunjukkan operasi Proses
+- OUT menunjukkaan output
+- XXX adalah nomor SRS-Id
+
+Nama-ID         : Kebutuhan Non Fungsional  
+Aturan penamaan : SRS-NF-OI/OP/OUT-XXX
+Keterangan      :
+- SRS adalah System Requirement Summary
+- NF adalah Non Fungsional
+- OI menunjukkan operasi Input
+- OP menunjukkan operasi Proses
+- OUT menunjukkaan output
+- XXX adalah nomor SRS-Id
+
+Nama-ID         : Buble
+Aturan penamaan : DFD-X-Y.Z 
+Keterangan      :
+- DFD adalah Data Flow Diagram 
+- X adalah nomor level diagram
+- Y.Z adalah nomer pada buble diagram
+
+1.5 Referensi
+[1] https://library.binus.ac.id/eColls/eThesisdoc/Bab1/2012-2-00191-DI%20Bab1001.pdf
+[2] M. Minarni, E. Yulianti, and I. Warman, “Perancangan Sistem Informasi Panti Asuhan di Kota Padang (Studi Kasus : Panti Asuhan Bundo 
+Saiyo Padang),” J. Momentum, vol. 18, no. 2, pp. 35–41, 2016.
+
+1.6 Deskripsi Umum Dokumen (Ihtisar)
+Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum 
+perangkat lunak, dan deskripsi kebutuhan Fungsional maupun Non-Fungsional.
+Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan 
+deskripsi dari Sistem Informasi, definisi, istilah dan singkatan yang digunakan dalam dokumen, aturan penomoran yang digunakan dalam 
+dokumen ini, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
+Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai
+dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
+Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional,
+kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan 
+fungsional maupun kebutuhan non fungsional. Kebutuhan antarmuka eksternal meliputi antarmuka pemakai, antarmuka perangkat keras, 
+antarmuak perangkat lunak, dan antarmuka komunikasi. Kebutuhan fungsional dan kebutuhan non fungsional perangkat lunak diuraikan 
+dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak yang dibuat disertakan dalam dokumen ini. 
+Kebutuhan fungsional perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD), di mana DFD yang dibuat meliputi 
+diagram konteks, DFD level 1, dan DFD level 2. Data store dari DFD yang dibuat pun dijelaskan di dalam dokumen ini. 
+Selain DFD, kebutuhan fungsional perangkat lunak digambarkan dalam spesifikasi proses. Kebutuhan data dari perangkat lunak digambarkan 
+dalam Entity Relationship Diagram (E-R Diagram). Batasan perancangan dari perangkat lunak yang akan dibuat tentunya harus dijelaskan 
+dalam dokumen ini agar pengembang perangkat lunak lebih mudah dalam melakukan pekerjaannya. Keruntunan dari perangkat lunak yang dibuat 
+digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship 
+Diagram.
+ 
