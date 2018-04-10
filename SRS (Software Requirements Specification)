@@ -1,0 +1,129 @@
+Software Requirements Specification for <Sistem Informasi Panti Asuhan dan Panti Jompo> 
+
+                                                                BAB 1
+                                                             PENDAHULUAN
+1.1	Tujuan
+Tujuan dokumen ini berisi Software Requirement Spesification (SRS) untuk Sistem Informasi Panti Asuhan dan Panti Jompo. Tujuan dari 
+penulisan dokumen ini untuk memberikan penjelasan mengenai perangkat lunak yang akan dibangun baik berupa gambaran umum maupun penjelasan 
+detail dan menyeluruh.
+Tujuan pembuatan Sistem Informasi Panti Asuhan dan Panti Jompo di Kota Malang, untuk memudahkan semua Panti Asuhan dan Panti Jompo yang 
+ada di Kota Malang untuk berbagi dan memantau aktivitas panti, memudahkan masyarakat umum untuk memberikan bantuan sosial, memudahkan 
+calon orang tua untuk mengadopsi anak secara resmi, dan pengawasan Dinas Sosial Kota Malang terhadap bantuan yang diberikan di Panti Asuhan
+dan Panti Jompo. Dengan adanya sistem informasi ini, semua aktivitas sampai bantuan di semua Panti Asuhan dan Panti Jompo di Kota Malang 
+akan dipantau secara online. 
+
+1.2	Ruang Lingkup
+Panti Asuhan dan Panti Jompo yang ada di Kota Malang tidak semua mempunyai website sendiri untuk membagikan aktivitas dan kebutuhan akan 
+Panti. Sehingga masyarakat umum yang ingin membantu Panti berupa dana harus datang ke panti tersebut, begitupun dengan orang tua 
+yang ingin mengadopsi anak harus datang ke Panti Asuhan untuk melihat berkas yang harus disiapkan, hal ini tentu akan tidak efektif, 
+Dinas sosial yang memberikan dana bantuan terhadap Panti harus mendatangi Panti untuk mengecek kebenaran penggunaan dana tersebut. 
+Tentu hal ini sangat membutuhkan banyak waktu, apalagi Panti Asuhan dan Panti Jompo di Kota Malang cukup banyak.  
+
+1.3	Definisi
+Definisi- definisi dari istilah yang digunakan dalam dokumen ini diantaranya :
+1)	Sistem Informasi merupakan Kesatuan elemen-elemen yang saling berinteraksi secara sistematis dan teratur untuk menciptakan dan 
+    membentuk aliran informasi yang akan mendukung permbuatan keputusan dan melakukan kendali terhadap jalannya organisasi.
+2)	Panti Asuhan
+    Panti asuhan adalah suatu Lembaga usaha kesejahteraan sosial yang mempunyai tanggung jawab untuk memberikan pelayanan kesejahteraan 
+    sosial kepada anak telantar dengan melaksanakan penyantunan dan pengentasan anak telantar, memberikan pelayanan pengganti fisik, 
+    mental, dan sosial pada anak asuh, sehingga memperoleh kesempatan yang luas, tepat dan memadai bagi perkembangan kepribadiannya 
+    sesuai dengan yang diharapkan sebagai bagian dari generasi penerus cita-cita bangsa dan sebagai insan yang akan turut serta aktif 
+    di dalam bidang pembangunan nasional (Kepmensos No. 50/huk/2004).
+3)	Panti Jompo
+    Panti jompo adalah sebuah rumah atau tempat penampungan untuk manusia lanjut usia. Sebuah sarana dimana manula diberikan fasilitas, 
+    layanan 24 jam, jadwal aktifitas, dan hiburan yang dibutuhkan sesuai kebutuhan manula.
+4)	Database
+    Database merupakan basis data, tempat penyimpanan data-data yang berhubungan dengan perangkat lunak.
+5)	Interface
+    Interface merupakan tampilan antarmuka perangkat lunak.
+6)	Context Diagram
+    Data Flow Diagram (DFD) Leveled
+    Data Flow Diagram (DFD) Leveled adalah DFD yang digambarkan bertingkat dari level global ke level detail (terperinci) sehinnga sistem
+    lebih tergambar jelas.
+7)	Entity Relationship Diagram (ERD) 
+    Entity Relationship Diagram (ERD) adalah model yang mendeskripsikan hubungan antar entity atau penyimpanan data yang ada pada DFD. 
+    Penggambaran Entity Relationship Diagram ini didasarkan pada kenyataanyang terjadi pada dunia nyata.
+    
+1.4 Referensi
+[1] https://library.binus.ac.id/eColls/eThesisdoc/Bab1/2012-2-00191-DI%20Bab1001.pdf
+[2]	M. Minarni, E. Yulianti, and I. Warman, “Perancangan Sistem Informasi Panti Asuhan di Kota Padang (Studi Kasus : Panti Asuhan Bundo 
+Saiyo Padang),” J. Momentum, vol. 18, no. 2, pp. 35–41, 2016.
+
+1.5	Gambaran Umum Dokumen
+Penulisan dokumen ini dibagi menjadi beberapa bab sebagai beriku :
+1)	Bab I : menjelaskan mengenai tujuan perangkat lunak, ruang lingkup, daftar definisi, istilah dan singkatan,  referensi serta gambaran
+    umum dokumen. 
+2)	Bab II : berisi tentang gambaran umum mengenai perspektif produk, manfaat produk, karakteristik user, Batasan, asumsi, 
+    dan ketergantungan yang digunakan. 
+3)	Bab III : menyediakan spesifikasi kebutuhan antarmuka, kebutuhan  fungsional, kebutuhan non fungsional,  lingkungan operasi,  
+    dan batasan perancangan.
+                                                               BAB II
+                                                           DESKRIPSI UMUM
+2.1 Perspektif
+Produk ini akan dijalankan oleh admin pemilik sistem dan oleh user  yang memiliki koneksi ke internet. Penggunaan sistem terbagi dua yaitu antar muka untuk user individu,  antar muka untuk admin Panti dan admin Dinas Sosial. Produk ini dapat berjalan pada
+platform atau sistem operasi apa saja.
+
+2.2 Manfaat Produk
+Manfaat yang didapat apabila menggunkan sistem ini antara lain adalah :
+1)	Memudahkan pengawasan Dinas Sosial Kota Malang terhadap dana bantuan sosial Kepada Panti Asuuhan dan Panti Jompo.
+2)	Memudahkan pemberian bantuan masyarakat umum  kepada Panti Asuhan dan Panti Jompo.
+3)	Menyediakan informasi kegiatan Panti Asuhan dan Panti Jompo (dalam bentuk gambar, video, teks) kepada masyarakat umum.
+4)	Memberikan informasi/prosedur cara adopsi anak secara resmi di Panti Asuhan
+5)	Menyediakan informasi tentang daftar nama yang terdapat dalam Panti Asuhan dan Panti Jompo, jika masyarakat 
+    umum kehilangan kerabat.
+    
+2.3 Karakteristik Pengguna
+Dalam sistem informasi ini, users yang terlibat adalah sebagai berikut
+  2.3.1 Admin Sistem
+        Sebagai pengelola sistem, melakukan upload kegiatan (gambar, teks, video), berita, pengelola laporan dana bantuan sosial, dan 
+        pengelola pengguna.
+  2.3.1 Penggunan Individu
+        User pengguna ini mempunyai hak untuk mengakses sistem informasi Panti Asuhan dan Panti Jompo, user juga dapat menginputkan 
+        informasi pada form pendaftaran adopsi anak, user juga dapat memberikan sarat terkait website. 
+2.4 Batasan-batasan
+1)	Untuk masalah pemberian dana bantuan masyarakat umum ditangani oleh pihak ketiga yaitu bank.
+2)	Pengguna yang berhak untuk mengakses sistem ini antara lain admin dan pengguna individu
+
+2.5 Asumsi dan Ketergantungan
+1)	User pengguna sistem informasi ini minimal tahu dan dapat mengoperasikan komputer terutama berbasis web
+2)	Tersedia sarana web server dan internet untuk mengakses apllikasi ini.
+
+                                                                BAB III
+                                                          SPESIFIKASI KEBUTUHAN
+3.1 Kebutuhan Fugsional
+1)	Proses
+    - Sistem dapat melakukan input catatan log aktivitas kegiatan (berupa gambar, video, teks)
+    - Sistem dapat melakukan input catatan penyaluran dana bantuan masyarakat umum
+    - Sistem dapat memuat prosedur dan melakukan input form  adopsi anak Panti Asuhan secara resmi
+    - Sistem dapat melakukan input catatan penyaluran dana bantuan Dinas Sosial secara private
+2)	Informasi
+    - Sistem menyimpan informasi catatan log aktivitas kegiatan pada Panti Asuhan dan Panti Jompo
+    - Sistem menyimpan informasi catatan penyaluran dana bantuan masyarakat umum
+    - Sistem dapat menyimpan hasil input pendaftaran calon pengadopsi anak
+    - Sistem menyimpan informasi catatan penyaluran dana bantuan Dinas Sosial secara private.
+    
+3.2 Kebutuhan Non Fungsional
+1)	Operasional
+    - Sistem dirancang berbasis web sehingga dapat dikases melalui perangkat mobile
+    - Sistem dapat memberikan output berupa print data catatan penyaluran dana bantuan dari Dinas Sosial
+2)	Performance
+    - Setiap akses web pada perangkat mobile berlangsung 2 s
+    - Output print data catatan penyaluran dana bantuan diberikan dalam waktu 3 s
+3)	Security
+    - Output print data catatan penyaluran dana bantuan hanya dapat diakses oleh admin, dinas sosial
+    - Semua aktivitas kegiatan Panti Asuhan dan Panti Jompo dapat diakses oleh masyarakat umum 
+    - Prosedur adopsi anak hanya berasal dari Panti Asuhan 
+    - Hasil input calon pengadopsi anak hanya dapat diliat oleh admin dan calon pengadopsi
+4)	Cultural dan Political
+    - Sistem memenuhi standart Dinas Sosial Kota Malang
+    - Bersifat netral, sebelumnya tidak ada kerjasama admin dengan Dinas Sosial maupun Panti Asuhan dan Panti Jompo
+
+3.3 Kebutuhan Antar Muka
+Kebutuhan antarmuka dalam sistem ini antara lain adalah kebutuhan perangkat keras berupa Personal Computer (PC) berupa 
+Central  processing Unit (CPU), mouse, keyboard, monitor , dimana perangkat PC harus terhubung dengan jaringan intranet dan internet,
+sehingga membutuhkan Local Area Network (LAN) Card . Sedangkan untuk kebutuhan perangkat lunak y ang harus disediakan adalah berupa 
+sebuah web browser seperti Internet Explorer,  Mozilla firefox,  dan sebagainya untuk menjalankan aplikasi berbasis web.
+
+3.4 Model Perancangan Sistem
+1)	Berikut ini adalah context diagram sistem informasi Panti Asuhan dan Panti Jompo
+
