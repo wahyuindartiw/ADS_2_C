@@ -125,12 +125,12 @@ Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasa
 Aplikasi Client server ini akan berfungsi dengan spesifikasi :
 Server :
 Komputer dengan spesifikasi hardware minimal sebagai berikut :
-• Processor Intel Pentium 4 3 Ghz
+• Processor Intel Core i5-8500B, 3.00 GHz
 • Motherboard support internet connection
-• 2 GB RAM
-• 500 GB Hard Disk Drive utama
-• 500 GB Hard Disk Drive backup
-• VGA Card 256 MB
+• RAM 8 GB DDR3 
+• 1 TB Hard Disk Drive utama
+• 1 TB Hard Disk Drive backup
+• VGA Card 1GB DDR3
 • NIC FastEthernet atau Gigabit Ethernet
 • Mouse
 • Keyboard
@@ -141,18 +141,18 @@ Komputer yang minimal telah terinstall software sebagai berikut :
 • PDF reader
 • Word Processor
 • Apache HTTP Server
-• Mail Server DBMS (Database Management System) minimal MySQL 5.0.20 ke atas Koneksi internet dengan bandwidth minimal 1 Mbps
-OS minimal Windows 7
+• Mail Server DBMS (Database Management System) minimal MySQL 5.0.20 ke atas Koneksi internet dengan bandwidth minimal 10 Mbps
+OS minimal Windows 8
 Client : Komputer dengan spesifikasi hardware minimal sebagai berikut :
-• Processor Intel Pentium 4 2 Ghz
+• Processor Intel CORE I3 3 GHz
 • Motherboard support internet connection
-• 1 GB RAM
-• 80 GB Hard Disk Drive
-• VGA Card 64 MB
+• 4 GB RAM
+• 500 GB Hard Disk Drive
+• VGA Card 1 GB
 • Mouse
 • Keyboard
 • Monitor
 • Power Supply
 Komputer yang minimal telah terinstall software sebagai berikut :
 • Browser Google Chrome/Mozilla Firefox
-Koneksi internet dengan bandwidth minimal 128 Kbps
+Koneksi internet dengan bandwidth minimal 3 Mbps
