@@ -156,3 +156,34 @@ Client : Komputer dengan spesifikasi hardware minimal sebagai berikut :
 Komputer yang minimal telah terinstall software sebagai berikut :
 • Browser Google Chrome/Mozilla Firefox
 Koneksi internet dengan bandwidth minimal 3 Mbps
+
+                                                                BAB 3
+                                                          Deskripsi Kebutuhan
+                                                          
+3.1	Kebutuhan Antarmuka Eksternal
+	Website panti asuhan dan panti jompo malang membutuhkan fasilitas-fasilitas antarmuka eksternal sebagai berikut:
+3.1.1	Antarmuka pemakai
+	User interface yang digunakan untuk mengoprasikan Website pantiasuhan dan panti jompo malang antara lain :
+-	Tampilan web
+-	Tampilan navigasi panti asuhan dan panti jompo
+-	Tampilan laporan donasi
+-	Tampilan data pantiasuhan dan panti jompo
+-	Tampilan form pendaftaran adopsi anak
+Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
+-	Mouse
+-	Keyboard
+-	Monitor 
+3.1.2	Antarmuka Perangkat Keras
+	Antarmuka perangkat keras yang digunakan untuk mengoprasikan perangkat keras antara lain: 
+-	NIC FastEthernet
+-	Kabel UTP RJ-45
+-	ASDL Modem
+3.1.3	Antarmuka Perangkat Lunak
+	Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+3.2.1 	Diagram Konteks
+                              https://drive.google.com/open?id=1UkQqc20tQWvEu4gJTxTEyLSMZnCPBHdJ 
+                              Gambar 1. Diagram Konteks Sistem informasi Panti Asuhan dan Panti Jompo
+3.2.2 	DFD Level 1
+
+
+
