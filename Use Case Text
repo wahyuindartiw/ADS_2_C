@@ -1,0 +1,34 @@
+Use case text
+
+Use case name		      : Pengadopsian Anak
+Actor			            : User (calon orangtua)
+Use case description	: calon orangtua melakukan pendaftaran dalam sistem dan melihat apa  saja syarat yang digunakan untuk mengadopsi anak secara resmi
+Trigger			          : admin membutuhkan data dari calon orangtua untuk memproses pengadopsian
+Pre-conditional		    : user telah melakukan login (memiliki user name dan password)
+                        sistem telah aktif
+Normal course		      : user telah login dalam sistem
+			                  User melihat persyaratan adopsi anak
+			                  User melakukan pendaftaran secara online
+Post-conditional	    : user datang ke panti asuhan dengan membawa form pendaftaran online dan persyaratan lainnya
+			                  Form pendaftaran telah tervalidasi
+Exception		          : kegagalan login
+			                  Sistem offline
+			                  Gagal menampilkan daftar calon orangtua 
+        
+        
+Use case text
+Use case name		      : penyaluran donasi
+Actor			            : dinas sosial, user
+Use case description	: dinas sosial dapat melihat informasi penyaluran donasi secara detail
+			                  User dapat melihat informasi penyaluran donasi secara umum
+Trigger			          : dinas sosial membutuhkan login untuk dapat melihat informasi penyaluran donasi secara detail
+Pre-conditional		    : dinas sosial login dengan akun yang valid 
+			                  sistem aktif/online
+Normal course		      : dinas sosial telah login
+			                  Dinas sosial dapat melihat informasi penyaluran donasi secara detail
+			                  User dapat melihat informasi penyaluran donasi secara umum
+Post-conditional	    : dinas sosial telah dapat melihat informasi penyaluran donasi secara detail
+			                  user telah dapat melihat informasi penyaluran donasi secara umum
+Exception		          : sistem tidak mengenali akun dari dinas sosial
+			                  Sistem offline
+
