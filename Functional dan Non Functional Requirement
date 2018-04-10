@@ -1,0 +1,26 @@
+FUNCTIONAL REQUIREMENT
+1)	Proses
+-	Sistem dapat melakukan input catatan log aktivitas kegiatan (berupa gambar, video, teks)
+-	Sistem dapat melakukan input catatan penyaluran dana bantuan masyarakat umum
+-	Sistem dapat memuat prosedur dan melakukan input form  adopsi anak Panti Asuhan secara resmi
+-	Sistem dapat melakukan input catatan penyaluran dana bantuan Dinas Sosial secara private
+2)	Informasi
+-	Sistem menyimpan informasi catatan log aktivitas kegiatan pada Panti Asuhan dan Panti Jompo
+-	Sistem menyimpan informasi catatan penyaluran dana bantuan masyarakat umum
+-	Sistem dapat menyimpan hasil input pendaftaran calon pengadopsi anak
+-	Sistem menyimpan informasi catatan penyaluran dana bantuan Dinas Sosial secara private
+NON FUNCTIONAL REQUIREMENT
+1)	Operasional
+-	Sistem dirancang berbasis web sehingga dapat dikases melalui perangkat mobile
+-	Sistem dapat memberikan output berupa print data catatan penyaluran dana bantuan dari Dinas Sosial
+2)	Performance
+-	Setiap akses web pada perangkat mobile berlangsung 2 s
+-	Output print data catatan penyaluran dana bantuan diberikan dalam waktu 3 s
+3)	Security
+-	Output print data catatan penyaluran dana bantuan hanya dapat diakses oleh admin, dinas sosial
+-	Semua aktivitas kegiatan Panti Asuhan dan Panti Jompo dapat diakses oleh masyarakat umum 
+-	Prosedur adopsi anak hanya berasal dari Panti Asuhan 
+-	Hasil input calon pengadopsi anak hanya dapat diliat oleh admin dan calon pengadopsi
+4)	Cultural dan Political
+-	Sistem memenuhi standart Dinas Sosial Kota Malang
+-	Bersifat netral, sebelumnya tidak ada kerjasama admin dengan Dinas Sosial maupun Panti Asuhan dan Panti Jompo
