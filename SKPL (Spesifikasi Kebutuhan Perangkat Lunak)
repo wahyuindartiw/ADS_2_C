@@ -178,27 +178,33 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 3.1.3	Antarmuka Perangkat Lunak
 	Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
 3.2     Kebutuhan Fungsional
-	ID SRS-F-OI/OP/OUT-001
+	ID SRS-F-OUT-001
 	Kebutuhan : Perangkat lunak dapat menampilkan form sign in
 	Penjelasan : User (Dinas Sosial, admin Panti Asuhan) dapat melakukan sign in sehingga perangkat lunak dapat menampilkan 
 	form sign in
-	ID SRS-F-OI/OP/OUT-002
+	ID SRS-F-OI-002
 	Kebutuhan : Perangkat lunak dapat menerima inputan catatan log aktivitas panti berupa foto
 	Penjelasan : Perangkat lunak menyimpan informasi catatan log aktivitas berupa foto yang dimasukkan oleh admin Panti
-	ID SRS-F-OI/OP/OUT-003
+	ID SRS-F-OI-003
 	Kebutuhan : Perangkat lunak dapat menerima inputan catatan log aktivitas panti berupa video
 	Penjelasan : Perangkat lunak menyimpan informasi catatan log aktivitas berupa video yang dimasukkan oleh admin Panti
-	ID SRS-F-OI/OP/OUT-004
+	ID SRS-F-OI-004
 	Kebutuhan : Perangkat lunak dapat menerima inputan berupa teks (komentar) 
 	Penjelasan : Perangkat lunak menyimpan informasi berupa teks dari user dan admin Panti
-	ID SRS-F-OI/OP/OUT-005
+	ID SRS-F-OP-005
+	Kebutuhan : Perangkat Lunak dapat menampilkan laporan pernyaluran dana bantuan berupa jumlah biaya yang digunakan
+	Penjelasan : Setelah perangkat lunak menghitung jumlah biaya yang digunakan Panti, perangkat lunak menampilkan informasi tersebut 
+	ID SRS-F-OI-006
 	Kebutuhan : Perangkat lunak dapat menerima inputan berupa laporan penyaluran dana bantuan bantuan 
 	Penjelasan : Perangkat lunak menyimpan informasi laporan penyaluran dana bantuan Panti untuk dipertanggung jawabkan kepada 
 	Dinas Sosial Kota Malang
-	ID SRS-F-OI/OP/OUT-006
+	ID SRS-F-OUT-007
+	Kebutuhan : Perangkat lunak menampilkan daftar Panti Asuhan dan Panti Jompo di Kota Malang
+	Penjelasan : Perangkat Lunak menampilkan nama, alamat, no rekening bantuan dari Panti Asuhan dan Panti Jompo di Kota Malang
+	ID SRS-F-OI-008
 	Kebutuhan : Perangkat lunak dapat menerima inputan prosedur mengadopsi anak secara resmi
 	Penjelasan : Perangkat lunak menyimpan prosedur mengadopsi anak secara resmi dari Panti
-	ID SRS-F-OI/OP/OUT-007
+	ID SRS-F-OI-009
 	Kebutuhan : Perangkat lunak dapat menerima inputan form pendaftaran adopsi anak
 	Penjelasan : Perangkat lunak menyimpan form pendaftaran adopsi anak dari user
 
