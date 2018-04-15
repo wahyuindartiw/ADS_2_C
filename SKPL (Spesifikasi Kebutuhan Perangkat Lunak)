@@ -180,6 +180,37 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 -	ASDL Modem
 3.1.3	Antarmuka Perangkat Lunak
 	Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+3.2     Kebutuhan Fungsional
+	ID SRS-F-OI/OP/OUT-001
+	Kebutuhan : Perangkat lunak dapat menampilkan form sign in
+	Penjelasan : User (Dinas Sosial, admin Panti Asuhan) dapat melakukan sign in sehingga perangkat lunak dapat menampilkan 
+	form sign in
+
+	ID SRS-F-OI/OP/OUT-002
+	Kebutuhan : Perangkat lunak dapat menerima inputan catatan log aktivitas panti berupa foto
+	Penjelasan : Perangkat lunak menyimpan informasi catatan log aktivitas berupa foto yang dimasukkan oleh admin Panti
+
+	ID SRS-F-OI/OP/OUT-003
+	Kebutuhan : Perangkat lunak dapat menerima inputan catatan log aktivitas panti berupa video
+	Penjelasan : Perangkat lunak menyimpan informasi catatan log aktivitas berupa video yang dimasukkan oleh admin Panti
+
+	ID SRS-F-OI/OP/OUT-004
+	Kebutuhan : Perangkat lunak dapat menerima inputan berupa teks (komentar) 
+	Penjelasan : Perangkat lunak menyimpan informasi berupa teks dari user dan admin Panti
+
+	ID SRS-F-OI/OP/OUT-005
+	Kebutuhan : Perangkat lunak dapat menerima inputan berupa laporan penyaluran dana bantuan bantuan 
+	Penjelasan : Perangkat lunak menyimpan informasi laporan penyaluran dana bantuan Panti untuk dipertanggung jawabkan 
+	kepada Dinas Sosial Kota Malang
+
+	ID SRS-F-OI/OP/OUT-006
+	Kebutuhan : Perangkat lunak dapat menerima inputan prosedur mengadopsi anak secara resmi
+	Penjelasan : Perangkat lunak menyimpan prosedur mengadopsi anak secara resmi dari Panti
+	
+	ID SRS-F-OI/OP/OUT-007
+	Kebutuhan : Perangkat lunak dapat menerima inputan form pendaftaran adopsi anak
+	Penjelasan : Perangkat lunak menyimpan form pendaftaran adopsi anak dari user
+
 3.2.1 	Diagram Konteks
                               https://drive.google.com/open?id=1UkQqc20tQWvEu4gJTxTEyLSMZnCPBHdJ 
                               Gambar 1. Diagram Konteks Sistem informasi Panti Asuhan dan Panti Jompo
