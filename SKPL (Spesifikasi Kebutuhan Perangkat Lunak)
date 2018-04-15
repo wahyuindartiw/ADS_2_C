@@ -213,5 +213,40 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
                               Gambar 1. Diagram Konteks Sistem informasi Panti Asuhan dan Panti Jompo
 3.2.2 	DFD Level 1
 
+3.4	Kebutuhan Non Fungsional
+	Kebutuhan non fungsional yang terdapat pada Sistem Informasi Panti Asuhan dan Panti Jompo antara lain.
+	ID SRS-NF-OUT-001
+	Parameter : Operational
+	Kebutuhan : Perangkat lunak dirancang berbasis web, sehingga dapat diakses pada perangkat mobile
+	ID SRS-NF-OUT-002
+	Parameter : Operational
+	Kebutuhan : Perangkat lunak menampilkan output berupa print data catatan penyaluran dana bantuan dari Dinas Sosial
+	ID SRS-NF-OP-003
+	Parameter : Performance 
+	Kebutuhan : Akses web pada perangkat mobile berlangsung 2 detik
+	ID SRS-NF-OP-004
+	Parameter : Performance 
+	Kebutuhan : Perangkat luna menampilka output berupa print data catatan penyaluran dana kepada admin Dinas Sosial dalam waktu 
+	4 detik
+	ID SRS-NF-OP-005
+	Parameter : Security
+	Kebutuhan : Perangkat Lunak hanya menampilkan output berupa print data catatan penyaluran dana kepada Admin Dinas Sosial 
+	setelah melakukan sign in
+	ID SRS-NF-OP-006
+	Parameter : Security
+	Kebutuhan : Perangkat Lunak menampilkan semua aktivitas kegiatan panti ( gambar, video, berita) dapat diakses secara umum 
+	oleh user
+	ID SRS-NF-OP-007
+	Parameter : Security
+	Kebutuhan : Perangkat Lunak hanya menampilkan prosedur dan form adopsi anak secara resmi hanya dari Panti terkait
+	ID SRS-NF-OP-008
+	Parameter : Security
+	Kebutuhan : Perangkat Lunak hanya input form adopsi anak, hanya dapat dilihat oleh Panti Asuhan dan calon orang tua 
+	pengadopsi anak
+	ID SRS-NF-OUT-007
+	Parameter : Cultural & Political 
+	Kebutuhan : Perangkat Lunak memenuhi standar Dinas Sosial Kota Malang
+
+
 
 
