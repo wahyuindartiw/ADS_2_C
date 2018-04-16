@@ -246,6 +246,16 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 	ID SRS-NF-OUT-007
 	Parameter : Cultural & Political 
 	Kebutuhan : Perangkat Lunak memenuhi standar Dinas Sosial Kota Malang
+3.5	Batasan Perancangan 
+	Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Panti Asuhan dan Panti Jompo
+	antara lain
+	- Tampilan web dibuat menggunakan corel draw
+	- Text editor yang digunakan adalah notepad ++
+	- Bahasa pemrograman yang digunakan adalah HTML, PHP
+3.6	Kerunutan (Traceability)
+	Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisis.
+	Berikut ini adalah traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
+
 
 
 
