@@ -255,7 +255,57 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 3.6	Kerunutan (Traceability)
 	Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisis.
 	Berikut ini adalah traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
-
+3.7	Ringkasan Kebutuhan
+	Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuh, dan nantinya akan 
+	menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut 
+	ini ringkasan semua kebutuhan perangkat lunak.
+	3.7.1	Kebutuhan Fungsional
+	ID SRS-F-OUT-001
+	Deskripsi : Perangkat lunak dapat menampilkan form sign in
+	ID SRS-F-OI-002
+	Deskripsi : Perangkat lunak dapat menerima inputan catatan log aktivitas panti berupa foto
+	ID SRS-F-OI-003
+	Deskripsi : Perangkat lunak dapat menerima inputan catatan log aktivitas panti berupa video
+	ID SRS-F-OI-004
+	Deskripsi : Perangkat lunak dapat menerima inputan berupa teks (komentar) 
+	ID SRS-F-OP-005
+	Deskripsi : Perangkat Lunak dapat menampilkan laporan pernyaluran dana bantuan berupa jumlah biaya yang digunakan
+	ID SRS-F-OI-006
+	Deskripsi : Perangkat lunak dapat menerima inputan berupa laporan penyaluran dana bantuan bantuan  
+	Dinas Sosial Kota Malang
+	ID SRS-F-OUT-007
+	Deskripsi : Perangkat lunak menampilkan daftar Panti Asuhan dan Panti Jompo di Kota Malang
+	ID SRS-F-OI-008
+	Deskripsi : Perangkat lunak dapat menerima inputan prosedur mengadopsi anak secara resmi
+	ID SRS-F-OI-009
+	Deskripsi : Perangkat lunak dapat menerima inputan form pendaftaran adopsi anak
+	
+	3.7.2	Kebutuhan Non Fungsional
+	ID SRS-NF-OUT-001
+	Kebutuhan : Perangkat lunak dirancang berbasis web, sehingga dapat diakses pada perangkat mobile
+	ID SRS-NF-OUT-002
+	Kebutuhan : Perangkat lunak menampilkan output berupa print data catatan penyaluran dana bantuan dari Dinas Sosial
+	ID SRS-NF-OP-003 
+	Kebutuhan : Akses web pada perangkat mobile berlangsung 2 detik
+	ID SRS-NF-OP-004 
+	Kebutuhan : Perangkat luna menampilka output berupa print data catatan penyaluran dana kepada admin Dinas Sosial dalam waktu 
+	4 detik
+	ID SRS-NF-OP-005
+	Kebutuhan : Perangkat Lunak hanya menampilkan output berupa print data catatan penyaluran dana kepada Admin Dinas Sosial 
+	setelah melakukan sign in
+	ID SRS-NF-OP-006
+	Kebutuhan : Perangkat Lunak menampilkan semua aktivitas kegiatan panti (gambar, video, berita) dapat diakses secara umum 
+	oleh user
+	ID SRS-NF-OP-007
+	Kebutuhan : Perangkat Lunak hanya menampilkan prosedur dan form adopsi anak secara resmi hanya dari Panti terkait
+	ID SRS-NF-OP-008
+	Kebutuhan : Perangkat Lunak hanya input form adopsi anak, hanya dapat dilihat oleh Panti Asuhan dan calon orang tua 
+	pengadopsi anak
+	ID SRS-NF-OUT-007
+	Kebutuhan : Perangkat Lunak memenuhi standar Dinas Sosial Kota Malang
+	
+	
+		
 
 
 
