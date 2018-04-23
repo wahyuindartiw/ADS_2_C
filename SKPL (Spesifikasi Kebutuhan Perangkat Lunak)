@@ -224,6 +224,30 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 			      https://drive.google.com/open?id=1Sf2AEvGnAU5R2ObtL0AQPzyDs-2cek9l
 			      Gambar 3. Diagram Level 2 Laporan Donasi			      
 			      
+3.2.3 	Spesifikasi Proses (P-SPEC)
+	Kode Buble DFD-0-1 
+	Deskripsi :Proses ini merupakan gambaran sistem secara keseluruhan. Melibatkan terminator serta data flow yang bisa keluar masuk.
+	Buble 0 akan di deskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
+	Kode Buble DFD-1-1 
+	Deskripsi : Terminator yang dapat melakukan pilihan input adalah Dinas Sosial dan admin. Karena ketiga terminator ini merupakan 
+	penggunaaktif yang dapat berinteraksi dengan user. Proses mengeluarkan output sesuai dengan pilihan user, yang akan meneruskan data flow pada 
+	proses yang sesuai dengan pilihan user.
+	Kode Buble DFD-1-2
+	Deskripsi : Proses ini terjadi ketika user memilih menu pendaftaran adopsi anak. Hasil pendaftaran menu adopsi anak akan tersimpan pada 
+	data calon orang tua.
+	Kode Buble DFD-1-3
+	Deskripsi : Setelah user melakukan pendaftaran adopsi anak, data tersebut dapat dilihat pada data calon orang tua proses selanjutnya 
+	adalah print out
+	Kode Buble DFD-1-4
+	Deskripsi : User dapat melihat kegiatan panti berupa video, foto, berita dari data kegiatan. Admin dapat melakukan pilihan untuk 
+	melakukan update kegiatan panti. Data yang telah diupdate akan di simpan pada data kegiatan panti.
+	Kode Buble DFD-1-5
+	Deskripsi : Proses ini menerima input dari admin, kemudian melakukan proses generate laporan sehingga admin dapat mendapatkan 
+	laporan sehingga admin bisa mendapatkan laporan untuk dilaporkan kepada Dinas Sosial Kota Malang
+	Kode Buble DFD-1-6 
+	Deskripsi : Proses ini menerima input pilihan laporan (berupa Tanggal, Nama barang, Qty, dan Harga) yang dikirim oleh admin, 
+	kemudian melakukan proses generate laporan sehingga admin bisa mendapatkan laporan untuk dilaporkan kepada Dinas Sosial 
+	Kota Malang.
 
 3.4	Kebutuhan Non Fungsional
 	Kebutuhan non fungsional yang terdapat pada Sistem Informasi Panti Asuhan dan Panti Jompo antara lain.
@@ -316,9 +340,3 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 	ID SRS-NF-OUT-007
 	Kebutuhan : Perangkat Lunak memenuhi standar Dinas Sosial Kota Malang
 	
-	
-		
-
-
-
-
