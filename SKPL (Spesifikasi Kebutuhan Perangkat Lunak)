@@ -248,7 +248,12 @@ Alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 	Deskripsi : Proses ini menerima input pilihan laporan (berupa Tanggal, Nama barang, Qty, dan Harga) yang dikirim oleh admin, 
 	kemudian melakukan proses generate laporan sehingga admin bisa mendapatkan laporan untuk dilaporkan kepada Dinas Sosial 
 	Kota Malang.
-
+3.2.4 	Data Store 
+	Data Store : Data_KegiatanPanti 
+	Deskripsi : Berisi data kegiatan Panti. Menyimpan data berupa gambar, video, dan berita
+	Data Store : Data_CalonOrangTua
+	Deskripsi : Berisi data calon orang tua yang akan mengadopsi anak dari panti asuhan. Data ini berisis nama, JK, TTL,
+	Alamat, dan motivasi.
 3.4	Kebutuhan Non Fungsional
 	Kebutuhan non fungsional yang terdapat pada Sistem Informasi Panti Asuhan dan Panti Jompo antara lain.
 	ID SRS-NF-OUT-001
