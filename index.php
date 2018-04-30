@@ -44,7 +44,7 @@
   <div id="pageintro" class="hoc clear"> 
     <article>
       <p>Dinas Sosial Kota Malang</p>
-      <h3 class="heading">Panti Asuhan dan Panti Jompo Kota Malang</h3>
+      <h3 class="heading">Panti Asuhan dan Panti Jompo </h3>
       <footer>
         <ul class="nospace inline pushright">
           <li><a class="btn" href="http://localhost/SI/pantiAsuhan.php">PANTI ASUHAN</a></li>
