@@ -119,14 +119,13 @@
 	2.	Calon orang tua asuh dari panti asuhan mengisi form pendaftaran terlebih dahulu sebelum mendatangi panti asuhan terkait.
 	3.	Aplikasi berbasis website yang hanya dapat diakses saat terkoneksi internet (online).
 2.4	Lingkungan Operasi
-	Aplikasi Client server ini akan berfungsi dengan spesifikasi :
+	Aplikasi ini akan berfungsi dengan spesifikasi :
 	Server :
 	Komputer dengan spesifikasi hardware minimal sebagai berikut :
 	• Processor Intel Core i5-8500B, 3.00 GHz
 	• Motherboard support internet connection
 	• RAM 8 GB DDR3 
-	• 1 TB Hard Disk Drive utama
-	• 1 TB Hard Disk Drive backup
+	• 500 GB Hard Disk Drive utama
 	• VGA Card 1GB DDR3
 	• NIC FastEthernet atau Gigabit Ethernet
 	• Mouse
