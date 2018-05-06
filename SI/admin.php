@@ -24,12 +24,17 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Data Pendaftar Untuk Mengadopsi Anak
+                            Selamat Datang di Panel Admin, silahkan memilih menu dibawah ini.
                             <a class="btn btn-danger" href="logout.php">Logout</a>
                         </div> 
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                            <div class="table-responsive">
+                            <center>
+                                <a href="http://localhost/SI/pages/pantiAsuhan/dashboard.php" class="btn btn-success" style="margin-right: 20px;">Rincian Donasi Panti Asuhan </a>
+                                <a href="http://localhost/SI/pages/pantiJompo/dashboard.php" class="btn btn-warning" style="margin-left: 20px;">Rincian Donasi Panti Jompo </a>
+                                        </center>
+
+<!--                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
@@ -65,8 +70,8 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <!-- /.table-responsive -->
-                        </div>
+                            /.table-responsive -->
+                         </div>
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
