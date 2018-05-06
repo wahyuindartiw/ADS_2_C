@@ -33,8 +33,9 @@
                                 <a href="http://localhost/SI/pages/pantiAsuhan/dashboard.php" class="btn btn-success" style="margin-right: 20px;">Rincian Donasi Panti Asuhan </a>
                                 <a href="http://localhost/SI/pages/pantiJompo/dashboard.php" class="btn btn-warning" style="margin-left: 20px;">Rincian Donasi Panti Jompo </a>
                                         </center>
-
-<!--                             <div class="table-responsive">
+<br><br><center><strong><h3>LIST DATA PENDAFTAR ADOPSI</h3></strong></center>
+<br>
+                            <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
@@ -70,7 +71,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            /.table-responsive -->
+                            
                          </div>
                         <!-- /.panel-body -->
                     </div>
