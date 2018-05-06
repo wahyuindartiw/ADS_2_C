@@ -59,24 +59,23 @@
       <ul class="nospace btmspace-80 group">
         <li class="one_third first">
           <article><i class="fa fa-diamond"></i>
-            <h6 class="heading font-x1"><a href="">DAFTAR PANTI</a></h6>
+            <h6 class="heading font-x1"><a href="pages/pantiAsuhan/daftarPanti.php">DAFTAR PANTI</a></h6>
       <p> Daftar panti asuhan di Kota Malang </p>
           </article>
         </li>
         <li class="one_third">
           <article><i class="fa fa-fort-awesome"></i>
-            <h6 class="heading font-x1"><a href="">GALERI</a></h6>
+            <h6 class="heading font-x1"><a href="pages/pantiAsuhan/galeri.php">GALERI</a></h6>
       <p> Sekumpulan memori anak panti yang hangat </p>
           </article>
         </li>
         <li class="one_third">
           <article><i class="fa fa-forumbee"></i>
-            <h6 class="heading font-x1"><a href="#">BERITA</a></h6>
+            <h6 class="heading font-x1"><a href="pages/pantiAsuhan/berita.php">BERITA</a></h6>
       <p> Berita kegiatan yang di Panti Jompo</p>
           </article>
         </li>
       </ul>
-      <p class="center"><a class="btn" href="#">DONASI</a></p>
     </section>
     <!-- ################################################################################################ -->
   </main>

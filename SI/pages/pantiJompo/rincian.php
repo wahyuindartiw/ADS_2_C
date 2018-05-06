@@ -1,3 +1,12 @@
+<?php include "../../config/koneksi.php" ;
+    session_start();
+    if (empty($_SESSION['user'])) {
+        echo "<center>maaf anda harus <a href='login.php'>login</a> terlebih dahulu</center>";
+    }
+    else{
+
+?>
+
 <!DOCTYPE html>
 <html lang="">
 
@@ -14,7 +23,7 @@
     <div class="fl_left">
       <ul class="nospace">
         <li><a href="http://localhost/SI/"><i class="fa fa-lg fa-home"></i></a></li>
-        <li class="active"><a href="http://localhost/SI/pantiAsuhan.php" >PANTI ASUHAN</a></li>
+        <li class="active"><a href="http://localhost/SI/pantiAsuhan.php">PANTI ASUHAN</a></li>
         <li class="active"><a href="http://localhost/SI/pantiJompo.php" style="color: red;">PANTI JOMPO</li>
       </ul>
     </div>
@@ -36,6 +45,7 @@
         <li><a href="http://localhost/SI/pages/pantiAsuhan/berita.php">BERITA</a></li>
         <li><a href="http://localhost/SI/pages/pantiAsuhan/daftarpanti.php">DAFTAR PANTI</a></li>
         <li><a href="http://localhost/SI/pages/pantiAsuhan/galeri.php">GALERI</a></li>
+        <li class="#"><a href="http://localhost/SI/pages/pantiAsuhan/adopsi.php">ADOPSI</a></li>
         <li><a href="../../login.php">LOGIN</a></li>
       </ul>
     </nav>
@@ -46,45 +56,41 @@
   <main class="hoc container clear"> 
     <section>
       <div class="sectiontitle">
-        <h6 class="heading">LAPORAN DONASI</h6>
-      </div>
-	  <ul class="nospace group overview">
-      <li class="one_third">
-         <h6 class="heading">Griya Kasih Siloam</h6>
-	     <p>Jl. Bend. Sigura - Gura No.17, Karangbesuki, Sukun, Kota Malang, Jawa Timur 65149</p><p>Tlp. (0341) 553005</p><p>JUMLAH DONASI RP.XXXX 
-		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-        </li>
-		<li class="one_third">
-              <h6 class="heading">Pondok Lansia Al-Ishlah</h6>
-			  <p>Gg. 22A Jl. Laksda Adi Sucipto No.30, Pandanwangi, Blimbing, Kota Malang, Jawa Timur 65126, Indonesia</p><p>Tlp.(0341) 9925600</p><p>JUMLAH DONASI RP.XXXX 
-		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-        </li>
-		<li class="one_third">
-              <h6 class="heading">Griya Asih</h6>
-			  <p>Jalan Pramuka RT 6 RW 9 Desa Ngamarto Kecamatan Lawang, Malang, Jawa Timur, Indonesia</p> <p>Tlp. (0341) 7855340</p><p>JUMLAH DONASI RP.XXXX 
-		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-        </li>
-		<li class="one_third">
-              <h6 class="heading">Panti Werda Usia ”TRESNO MUKTI"</h6>
-			  <p>Jl. Ahmad Yani No. 180 </p><p>Tlp. (0341)825290</p>
-			  <p>JUMLAH DONASI RP.XXXX 
-		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-        </li>
-		<li class="one_third">
-              <h6 class="heading">Yayasan Bhakti Luhur</h6>
-			  <p>Jl. Seruni No. 4-8, Malang 65141, Jawa Timur</p><p>Telp. 0341-491672</p>
-			  <p>JUMLAH DONASI RP.XXXX 
-		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-        </li>
-		<li class="one_third">
-              <h6 class="heading">PA Sunan Kalijaga</h6>
-			  <p>Jl. KH Yusuf No. 57 </p><p>Telp. 0341-471719 </p>
-			  <p>JUMLAH DONASI RP.XXXX 
-		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-        </li>
-
+        <h6 class="heading">RINCIAN PENGELUARAN PANTI JOMPO</h6>
       </div>
     </section>
+           <div class="table-responsive">
+          <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+              <thead>
+                  <tr>
+                      <th class="text-center">Nama Panti Asuhan</th>
+                      <th class="text-center">Tanggal Pembelian</th>
+                      <th class="text-center">Nama Barang</th>
+                      <th class="text-center">Jumlah Barang</th>
+                      <th class="text-center">Total Harga</th>
+                  </tr>
+              </thead>
+              <tbody>
+          <?php
+          $no=1;
+            $sql=mysql_query("SELECT * FROM `submitpj` ORDER BY `submitpj`.`panti` ASC");
+            while($rs=mysql_fetch_array($sql)){
+          ?>
+                  <tr class="odd gradeX">
+                      <td><?php echo"$rs[panti]";  ?></td>
+                      <td ><?php echo"$rs[tgl]";  ?></td>
+                      <td ><?php echo"$rs[nama_barang]";  ?></td>
+                      <td ><?php echo"$rs[qty]";  ?></td>
+                      <td ><?php echo"$rs[harga]";  ?></td>
+
+                  </tr>
+          <?php
+          }
+          ?>
+              </tbody>
+          </table>
+      </div>
+          
     <!-- / main body -->
     <div class="clear"></div>
   </main>
@@ -95,3 +101,4 @@
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
+<?php } ?>

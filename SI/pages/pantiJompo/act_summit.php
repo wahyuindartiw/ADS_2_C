@@ -1,14 +1,11 @@
 <?php
 include "../../config/koneksi.php";
-$date = date("Y-m-d");
-mysql_query("INSERT INTO summit(Tanggal_Pembelian, Nama_Barang, Qty, Harga, tgl)
-VALUES(
-'$_POST[Tanggal Pembelian]',
-'$_POST[Nama Barang]',
-'$_POST[Qty]',
-'$_POST[Harga]'$date')");
+// $date = date("Y-m-d");
+mysql_query("INSERT INTO submitpj(panti, tgl, nama_barang, qty, harga)
+VALUES('$_POST[nama]','$_POST[tgl]','$_POST[barang]','$_POST[banyak]','$_POST[harga]')");
+// echo "$date";
 echo "<script>window.alert('Data Tersimpan, silahkan tunggu konfirmasi dari pihak admin untuk proses selanjutnya');
-        window.location=('../media.php?module=sekolah')</script>";
+window.location=('http://localhost/SI/pages/pantiJompo/dashboard.php')</script>";
 
 
 ?>

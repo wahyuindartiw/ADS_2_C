@@ -51,11 +51,12 @@
       </div>
       <div id="comments">
         <form method="post" role="form" action="http://localhost/si/pages/pantiAsuhan/act_summit.php">
-          <input type="text" name="Tanggal Pembelian" placeholder="Tanggal Pembelian" required><br>
-          <input type="text" name="Name" placeholder="Nama Barang" required><br>
-          <input type="Number" name="Kualitas" placeholder="Qty" required><br>
-          <input type="Number" name="Harga" placeholder="Harga Barang" required>
-          <p><button type="submit">Summit</button></p>
+          <input type="text" name="nama" placeholder="Nama Panti" required><br>
+          <input type="date" name="tgl" placeholder="Tanggal Pembelian" required><br>
+          <input type="text" name="barang" placeholder="Nama Barang" required><br>
+          <input type="Number" name="banyak" placeholder="Qty" min="1" required><br>
+          <input type="Number" name="harga" placeholder="Harga Barang" min="500" required>
+          <p><button type="submit">Submit</button></p>
         </form>
       </div>
     </section>

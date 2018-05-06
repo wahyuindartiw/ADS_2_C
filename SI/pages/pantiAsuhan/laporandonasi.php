@@ -54,44 +54,32 @@
          <h6 class="heading">PA Putri Aisyiyah </h6>
 	     <p> Jl. MT. Haryono III/21A </p><p>Telp. 0341-582717</p><p>JUMLAH DONASI RP.XXXX 
 		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/laporandonasi.php">RINCIAN</a>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/summit.php">SUMMIT</a></p>
         </li>
 		<li class="one_third">
               <h6 class="heading">PA Nurul Abyadh</h6>
 			  <p>Jl. Bendungan Siguragura I/8 </p><p>Telp. 0341-577697</p><p>JUMLAH DONASI RP.XXXX 
 		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/laporandonasi.php">RINCIAN</a></p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/summit.php">SUMMIT</a></p>
         </li>
 		<li class="one_third">
               <h6 class="heading">PA Bhakti Luhur</h6>
 			  <p>Jl. Seruni No. 4-8</p><p>Telp. 0341-491672</p><p>JUMLAH DONASI RP.XXXX 
 		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/laporandonasi.php">RINCIAN</a></p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/summit.php">SUMMIT</a></p>
         </li>
 		<li class="one_third">
               <h6 class="heading">PA Sunan Ampel</h6>
 			  <p> Jl. Sumbersari II/99 Ketawanggede </p><p>Telp. 0341-553957 </p><p>JUMLAH DONASI RP.XXXX 
 		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/laporandonasi.php">RINCIAN</a></p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/summit.php">SUMMIT</a></p>
         </li>
 		<li class="one_third">
               <h6 class="heading">PA Bahagia</h6>
 			  <p>Jl. Simbar Menjangan No. 58 </p><p>Telp. 0341-470862</p><p>JUMLAH DONASI RP.XXXX 
 		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/laporandonasi.php">RINCIAN</a></p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/summit.php">SUMMIT</a></p>
         </li>
 		<li class="one_third">
               <h6 class="heading">PA Sunan Kalijaga</h6>
 			  <p>Jl. KH Yusuf No. 57 </p><p>Telp. 0341-471719 </p><p>JUMLAH DONASI RP.XXXX 
 		  <p>TOTAL PENGELUARAN Rp. XXXX </p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/laporandonasi.php">RINCIAN</a></p>
-				<p class=""><a class="btn" href="http://localhost/SI/pages/pantiAsuhan/summit.php">SUMMIT</a></p>
-        </li>
+       </li>
 
       </div>
     </section>

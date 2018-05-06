@@ -36,7 +36,7 @@
         <li><a href="http://localhost/SI/pages/pantiJompo/berita.php">BERITA</a></li>
         <li><a href="http://localhost/SI/pages/pantiJompo/daftarPanti.php">DAFTAR PANTI</a></li>
         <li><a href="http://localhost/SI/pages/pantiJompo/galeri.php">GALERI</a></li>
-        <li><a href="">LOGIN</a></li>
+        <li><a href="login.php">LOGIN</a></li>
       </ul>
     </nav>
   </header>
@@ -58,24 +58,24 @@
       <ul class="nospace btmspace-80 group">
         <li class="one_third first">
           <article><i class="fa fa-diamond"></i>
-            <h6 class="heading font-x1"><a href="">DAFTAR PANTI</a></h6>
+            <h6 class="heading font-x1"><a href="pages/pantiJompo/daftarPanti.php">DAFTAR PANTI</a></h6>
       <p> Daftar panti asuhan di Kota Malang </p>
           </article>
         </li>
         <li class="one_third">
           <article><i class="fa fa-fort-awesome"></i>
-            <h6 class="heading font-x1"><a href="">GALERI</a></h6>
+            <h6 class="heading font-x1"><a href="pages/pantiJompo/galeri.php">GALERI</a></h6>
       <p> Sekumpulan memori anak panti yang hangat </p>
           </article>
         </li>
         <li class="one_third">
           <article><i class="fa fa-forumbee"></i>
-            <h6 class="heading font-x1"><a href="#">BERITA</a></h6>
+            <h6 class="heading font-x1"><a href="pages/pantiJompo/berita.php">BERITA</a></h6>
       <p> Berita kegiatan yang di Panti Jompo</p>
           </article>
         </li>
       </ul>
-      <p class="center"><a class="btn" href="#">DONASI</a></p>
+      <!-- <p class="center"><a class="btn" href="pages/pantiJompo/laporandonasi2.php">LAPORAN DONASI</a></p> -->
     </section>
     <!-- ################################################################################################ -->
   </main>
